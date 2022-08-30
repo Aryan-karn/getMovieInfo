@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS";
+}
+body{
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,4,108,0.3426086956521739) 20%, rgba(175,0,255,1) 81%);
+    background-repeat: no-repeat;
+    
+    margin-bottom: 100px;
+}
+header{
+    padding-top: 25px;
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 9%, rgba(47,4,108,0.3426086956521739) 36%, rgba(156,63,218,1) 80%);
+}
+.search-div{    
+    width: auto;
+    margin: 30px 20% 20px 20%;
+}
+.search-input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: rgba(225, 243, 255, 0.68);
+}
+#search-button{
+    background-color: rgba(186, 176, 255, 0.81);
+    width: 20%;
+    margin: 0px 2.5%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.output-div{
+    width: 60%;
+    margin: 5% 20%;
+    text-align: center;
+}
+#movie_poster{
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+h1{
+    color: rgb(0, 0, 87);
+    text-align: center;
+}
+#plot,#writer,#actors,#director{
+    clear: both;
+}
+p{
+    margin: 5px 5px;
+    font-size: 1.25em;
+}
+hr{
+    border: 2px solid rgb(0, 72, 134);
+}
+@media(max-width: 767px){
+    .search-div{
+        margin: 5% 10%;
+    }
+    .search-input{
+        width: 60%;
+    }
+    #search-button{
+        width: auto;
+    }
+    .output-div{
+        width: 80%;
+        margin: 5% 10%;
+    }
+}
